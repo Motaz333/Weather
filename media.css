@@ -1,0 +1,133 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .site-header {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .site-header .branding {
+
+        margin-bottom: 20px;
+    }
+
+   
+       
+        .main-navigation .menu{
+            display: none;
+        }
+
+    
+
+    .main-navigation .menu-toggle {
+        display: inline-block;
+    }
+
+
+    .main-navigation .menu .menu-item {
+        float: none;
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 30px 0;
+    }
+
+    .forecast-container {
+        width: 98%;
+
+
+    }
+
+    .forecast-container .forecast {
+        width: 100%;
+    }
+    .forecast-container .forecast.today .degree .num {
+   
+        font-size: 70px; }
+
+    .site-footer .row {
+        flex-direction: column;
+
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .forecast-container .forecast {
+        width: 100%;
+    }
+
+    .forecast-container {
+        width: 98%;
+    }
+
+    .main-navigation .menu-toggle {
+        display: inline-block;
+    }
+
+    .main-navigation .menu {
+        display: none;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .container {
+        width: 92%;
+    }
+
+    .forecast-container .forecast {
+        width: 100%;
+    }
+
+    .main-navigation .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .main-navigation .menu-toggle {
+        display: inline-block;
+    }
+
+    .main-navigation .menu {
+        display: none;
+    }
+
+    .forecast-container {
+        width: 98%;
+    }
+
+
+}
+
+/* Default large devices and desktop settings */
+@media only screen and (min-width: 992px) {
+    /* .container {
+         width: 970px; 
+    } */
+
+    .main-navigation .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .main-navigation .menu-toggle {
+        display: none;
+    }
+
+}
+
+/* Extra large devices (1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 80%;
+    }
+}
